@@ -1,0 +1,15 @@
+import java.util.*;
+public class sumcube{
+    public static void main(String []args){
+        Scanner sc=new Scanner(System.in);
+        int sum=0;
+        int n=sc.nextInt();
+        for(int i=0;i<=n;i++){
+            System.out.print(" "+i);
+            int s=i*i*i;
+            sum=sum+s;
+            System.out.println(" "+s);
+        }
+        System.out.println(sum);
+    }
+}
